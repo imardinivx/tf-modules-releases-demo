@@ -1,3 +1,4 @@
+// S3 bucket object resource module
 resource "aws_s3_object" "this" {
   count = var.create ? 1 : 0
 
